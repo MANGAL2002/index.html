@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>school web template</title>
+</head>
+<style>
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background:url(school\ back.jpg)
+    no-repeat center center;
+    min: height: 30rem;
+}  
+.logo{
+    color: orange;
+    font-size: 60px;
+    font-family: Arial;
+    float: left;
+    align-items: center;
+    margin-top: 50px;
+}  
+.main{
+    width:100%;
+    background: linear-gradient(lightblue);
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+}
+.menu{
+    float: right;
+    font-size: 20px;
+    color: orangered
+}
+nav{
+    width:100%;
+    height: 150px;
+    background-color:#0005;
+    line-height: 100px;
+    
+}
+.nav ul{
+    float:right;
+    margin: 0;
+    margin-right:1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color:orange;
+    padding: 20px;
+}
+img{
+    width:14%;
+    margin-left: 1.9rem;
+    margin-top: 1%;
+}
+nav ul li:hover{
+    background-color: coral;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.search{
+    width: 200px;
+    float:right;
+    border-style: solid;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid red;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.section{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+.section h1 {
+    color:black;
+    line-height: 60px;
+}
+.btn-1{
+    background-color:orangered;
+    padding: 10px;
+    color:#fff;
+    border: none;
+    border-radius: 20px;
+}
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.features button{
+    padding:0.7rem 2rem;
+    margin-right: 2rem;
+    font-size:1.2rem;
+    opacity: 0.7;
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 0%;
+    text-align: center;
+    color: #000;
+}
+#courses{
+    display:flex;
+    margin-left:10%;
+}
+#courses img{
+    width:250px;
+    border-radius: 20px;
+    border:4px solid #000;
+}
+.apply{
+    margin-top: 10%;
+    background-color: orangered;
+    padding:10px;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: orchid;
+}
+.footer{
+    background-color:#333;
+    color:#fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+    
+
+</style>
+<body>
+    
+    <div class="main">
+        <div class="wrapper">
+<!--NAVIGATION-->
+        <nav>
+            <img src="coding.jpg"class="img" alt="logo">
+        <div class="menu">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">courses</a></li>
+                <li><a href="#">events</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">pages</a></li>
+                <li><a href="#">contect</a></li>
+            </ul>
+        </div>
+        </nav>
+    
+        </div>
+    <!--END OF NAVIGATION-->
+        <div class="search">
+        
+            <input class="srch" type="search" name="" placeholder="type to text">
+            <a href="#"><button class="btn">search</button></a>
+        </div>
+        <div class="section">
+            <h1>WE ENSURE A BETTER EDUCATION <br>FOR A BETTER WORLD</h1>
+            <p>Lorem ipsum dolor sit amet consectetur,adipising elit.<br>explicabo, molesias cum dicta recusandae nisi nesciunt.</p>
+            <a href="#"><button class="btn-1">GET STARTED</button></a>
+        
+    <!--FEATURES-->
+            <div class="features">
+                <button>learn online classes</button>
+                <button>bridge course</button>
+                <button>huge library</button>
+                <button>practical exposure</button>
+            </div>
+<!--END OF FEATURES-->
+        </div>
+<!--END OF SECTION-->
+    </div>
+<!--END OF WRAPPER-->
+<!--SHOWCASE-->
+        <showcase>
+            <h1>POPULAR COURSES WE OFFER</h1>
+            <div class="courses">
+                <div class="cs">
+                    <h3>computer science</h3>
+    
+                    <img src="CS.jpg " width=50% alt="computer science"/>
+                    <a href="#"><button class="apply">APPLY HERE</button></a>
+                </div>
+    
+                <div class="business">
+                    <h3>business studies</h3>
+                    <img src="Business-Studies.png"  alt="business-study"/>
+                    <a href="#"><button class="apply">APPLY HERE</button></a>
+                </div>
+    
+                <div class="journalism">
+                    <h3>media and journalism</h3>
+                    <img src="news.jpg" alt="media and journalism"/>
+                    <a href="#"><button class="apply">APPLY HERE</button></a>
+                </div>
+    
+                <div class="arts">
+                    <h3>arts &humanities</h3>
+                    <img src="arts and humanities.jpg" alt="arts and humanities"/>
+                    <a href="#"><button class="apply">APPLY HERE</button></a>
+                </div>
+    
+                <div class="medical">
+                    <h3>medical science</h3>
+                    <img src="medical science.jpg" alt="medical science"/>
+                    <a href="#"><button class="apply">APPLY HERE</button></a>
+                </div>
+            </div>
+        </showcase>
+    <!--END OF SHOWCASE-->
+        <div class="footer"
+            <footer>
+                <p>copyright & copy;2019,code addict</p>
+            </footer>
+        </div>
+</body>
+    
+</html>
